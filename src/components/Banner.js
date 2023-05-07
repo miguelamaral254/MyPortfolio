@@ -1,8 +1,9 @@
 import React from 'react';
 //images
-import Image from '../assets/avatar.svg'
+import Image from '../assets/eu.png'
+//avatar.svg
 //icons
-import {FaGithub, FaYoutube, FaDribbble, FaGit} from 'react-icons/fa'
+import {FaGithub, FaWhatsapp, FaLinkedin} from 'react-icons/fa'
 // type animation
 import { TypeAnimation } from 'react-type-animation';
 // motion 
@@ -43,7 +44,7 @@ const Banner = () => {
             font-bold
             leading-[0.8]
             lg:text-[110px]'>
-              Ben <span>AIDEN</span>
+              Miguel <span>Amaral</span>
             </motion.h1>
               <motion.div 
               variants={fadeIn('up', 0.4)}
@@ -64,7 +65,7 @@ const Banner = () => {
                 <TypeAnimation sequence={[
                   'Developer', 2000,
                   'Designer', 2000,
-                  'Youtuber', 2000,
+                  {/*'Youtuber', 2000,*/}
                 ]}
                 speed={50}
                 className='
@@ -109,7 +110,12 @@ const Banner = () => {
                   </a>
               </motion.div>
               {/* socials */}
-              <div className='
+              <motion.div
+              variants={fadeIn('up', 0.6)}
+              initial='hidden' 
+              whileInView={'show'} 
+              viewport={{once: false, amount:0.8}} 
+              className='
               flex
               text-[20px]
               gap-x-6
@@ -118,26 +124,33 @@ const Banner = () => {
               lg:mx-0
               '>
                 <a href='#'>
-                  <FaYoutube/>
+                  <FaWhatsapp/>
                 </a>
                 <a href='#'>
                   <FaGithub/>
                 </a>
                 <a href='#'>
-                  <FaDribbble/>
+                  <FaLinkedin/>
                 </a>
-              </div>
+              </motion.div>
           </div>
           {/* image */}
-          <div className='
+          <motion.div
+          variants={fadeIn('down', 0.5)}
+          initial='hidden' 
+          whileInView={'show'} 
+         
+          className='
           hidden
           lg:flex
+          w-[600px]
+          h-[500px]
           flex-1
           max-w-[320px]
           lg:max-w-[482px]
           '>
             <img src={Image} alt='Image'  />
-          </div>
+          </motion.div>
         </div>
 
       </div>

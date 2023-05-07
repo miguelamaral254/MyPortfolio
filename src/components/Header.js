@@ -13,6 +13,7 @@ const Header = () => {
           {/**LOGO */}
           <a href='#'>
             <img src={Logo} alt='LOGO' /> 
+            {/* refazer logo */}
           </a>
           {/* Button*/}
           <button className='btn btn-sm'> Work with me</button>
