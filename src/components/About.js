@@ -44,7 +44,7 @@ const About = () => {
           bg-top'></motion.div>
           {/* text */}
           <motion.div 
-          variants={fadeIn('left',0.4)}
+          variants={fadeIn('left',0.5)}
           initial='hidden'
           whileInView={'show'}
           viewport={{once:false, amount:0.3}}className='flex-1'>
