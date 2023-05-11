@@ -50,7 +50,7 @@ const About = () => {
           viewport={{once:false, amount:0.3}}className='flex-1'>
             <h2 className='
             h2
-            text-accent'>Aboute me.</h2>
+            text-accent'>About me.</h2>
             <h3 className='
             h3
             mb-4'>I'm a Full-Stack Developer starting my carreer with a dream</h3>

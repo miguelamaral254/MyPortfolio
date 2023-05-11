@@ -11,7 +11,9 @@ const Header = () => {
         justify-between
         items-center'>
           {/* LOGO */}
-          <a href='#' className='w-[120px] h-[30px]'>
+          <a href='#' className='
+          w-[120px] 
+          h-[30px]'>
             <img src={Logo} alt='LOGO' /> 
             
           </a>

@@ -46,11 +46,13 @@ const Contact = () => {
             </div>
           </motion.div>
           {/* Form */}
-          <motion.form
+          <motion.form 
           variants={fadeIn('left',0.6)}
           initial='hidden'
           whileInView={'show'}
           viewport={{once:false, amount:0.3}}
+          action="https://formspree.io/f/{form_id}"
+          method="post"
           className='
           flex-1
           border
@@ -69,7 +71,9 @@ const Contact = () => {
             placeholder:text-white
             focus:border-accent
             transition-all'
-            type='text'
+            name='email'
+            id='email'
+            type='email'            
             placeholder='Your email'
             />
              <input className='
@@ -97,7 +101,9 @@ const Contact = () => {
             mb-12'
             placeholder='Your message'>
             </textarea>
-            <button className='
+            <button
+            type='submit' 
+            className='
             btn
             btn-lg'> send message</button>
           </motion.form>
