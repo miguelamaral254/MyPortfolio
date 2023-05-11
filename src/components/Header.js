@@ -1,6 +1,6 @@
 import React from 'react';
 // images
-import Logo from '../assets/logo.svg'
+import Logo from '../assets/Logo.png'
 
 const Header = () => {
   return (
@@ -10,10 +10,10 @@ const Header = () => {
         flex
         justify-between
         items-center'>
-          {/**LOGO */}
-          <a href='#'>
+          {/* LOGO */}
+          <a href='#' className='w-[120px] h-[30px]'>
             <img src={Logo} alt='LOGO' /> 
-            {/* refazer logo */}
+            
           </a>
           {/* Button*/}
           <button className='btn btn-sm'> Work with me</button>

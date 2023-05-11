@@ -2,6 +2,7 @@ import React from 'react';
 //images
 import Image from '../assets/eu.png'
 //avatar.svg
+
 //icons
 import {FaGithub, FaWhatsapp, FaLinkedin} from 'react-icons/fa'
 // type animation
@@ -83,7 +84,7 @@ const Banner = () => {
               max-w-lg
               mx-auto
               lg:mx-0'>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore reprehenderit, nam fugit laudantium fugiat quae minima voluptas
+              A new solution for your problems
               </motion.p>
               <motion.div 
               variants={fadeIn('up', 0.6)}
