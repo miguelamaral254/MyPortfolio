@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import {fadeIn} from '../variants'
 
 
+
 const Contact = () => {
   return (
     <section className='
@@ -51,7 +52,7 @@ const Contact = () => {
           initial='hidden'
           whileInView={'show'}
           viewport={{once:false, amount:0.3}}
-          action="https://formspree.io/f/{form_id}"
+          action="https://formspree.io/f/mnqyyylv"
           method="post"
           className='
           flex-1
@@ -85,6 +86,8 @@ const Contact = () => {
             placeholder:text-white
             focus:border-accent
             transition-all'
+            name='name'
+            id='name'
             type='text'
             placeholder='Your name'
             />
@@ -99,6 +102,7 @@ const Contact = () => {
             transition-all 
             resize-none
             mb-12'
+            name='message'
             placeholder='Your message'>
             </textarea>
             <button
