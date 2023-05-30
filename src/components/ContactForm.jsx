@@ -1,0 +1,60 @@
+<input
+         className='
+         bg-transparent
+         border-b
+         py-3
+         outline-none
+         w-full
+         placeholder:text-white
+         focus:border-accent
+         transition-all'
+          id="email"
+          type="email" 
+          name="email"
+          placeholder='Your email'
+        />
+        <ValidationError 
+          prefix="Email" 
+          field="email"
+          errors={state.errors}
+        />
+
+        <input
+         className='
+         bg-transparent
+         border-b
+         py-3
+         outline-none
+         w-full
+         placeholder:text-white
+         focus:border-accent
+         transition-all'
+          id="name"
+          type="name" 
+          name="name"
+          placeholder='Your name'
+        />
+        <ValidationError 
+          prefix="name" 
+          field="name"
+          errors={state.errors}
+        />
+        <textarea className='
+            bg-transparent
+            border-b
+            py-12
+            outline-none
+            w-full
+            placeholder:text-white
+            focus:border-accent
+            transition-all 
+            resize-none
+            mb-12'
+            name='message'
+            placeholder='Your message'>
+        </textarea>
+        <ValidationError 
+          prefix="message" 
+          field="message"
+          errors={state.errors}
+        />

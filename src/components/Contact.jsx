@@ -3,7 +3,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 //variants
 import {fadeIn} from '../variants'
-
+//useState
+import { useState } from 'react';
 
 
 const Contact = () => {
@@ -76,6 +77,7 @@ const Contact = () => {
             id='email'
             type='email'            
             placeholder='Your email'
+            required
             />
              <input className='
             bg-transparent
@@ -87,9 +89,10 @@ const Contact = () => {
             focus:border-accent
             transition-all'
             name='name'
-            id='name'
+            id ='name'
             type='text'
             placeholder='Your name'
+            required
             />
             <textarea className='
             bg-transparent
@@ -103,6 +106,8 @@ const Contact = () => {
             resize-none
             mb-12'
             name='message'
+            id='message'
+            type='text'
             placeholder='Your message'>
             </textarea>
             <button
