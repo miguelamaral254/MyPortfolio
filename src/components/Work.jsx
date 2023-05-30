@@ -47,7 +47,7 @@ const Work = () => {
               <button className='
               btn
               btn-sm'>
-                View all projects
+                <a href="https://github.com/miguelamaral254?tab=repositories" target='_blank'>View all projects</a>
               </button>
             </div>
             {/* Img 1 */}

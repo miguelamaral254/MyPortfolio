@@ -82,7 +82,6 @@ const Nav = () => {
           activeClass='active' 
           smooth={true}
           spy={true}
-
           className='
         cursor-pointer
         w-[60px]
@@ -114,4 +113,4 @@ const Nav = () => {
   )
 };
 
-export default Nav;
+export default Nav

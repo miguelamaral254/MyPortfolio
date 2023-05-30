@@ -8,6 +8,8 @@ import { TypeAnimation } from 'react-type-animation';
 import { m, motion } from 'framer-motion';
 // variants 
 import { fadeIn } from '../variants'
+//link
+import { Link } from 'react-scroll'
 // services data
 
 const services = [
@@ -71,7 +73,15 @@ const Services = () => {
             <button className='
           btn
           btn-sm'>
-              See my work
+            <Link
+          to='work'
+          activeClass='active'
+          smooth={true}
+          spy={true}>
+          See my work
+
+        </Link>
+              
             </button>
           </motion.div>
           {/* services */}

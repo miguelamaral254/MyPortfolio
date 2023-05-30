@@ -7,6 +7,8 @@ import { useInView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
 // variant
 import {fadeIn} from '../variants'
+//link
+import { Link } from 'react-scroll'
 
 
 const About = () => {
@@ -111,8 +113,16 @@ const About = () => {
             btn
             btn-lg'>Contact Me</button>
             <a href='#' className='
-            text-gradient
-            btn-link'>My Portfolio</a>
+                text-gradient
+                btn-link'>
+              <Link
+                to='work'
+                activeClass='active'
+                smooth={true}
+                spy={true}>
+                My portfolio
+              </Link>
+              </a>
             </div>
           </motion.div>
         </div>

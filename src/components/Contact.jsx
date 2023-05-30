@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useForm, ValidationError } from '@formspree/react';
 import { fadeIn } from '../variants';
+//icons
+import { FaGithub, FaWhatsapp, FaLinkedin } from 'react-icons/fa'
 
 const Contact = () => {
   const [showMessage, setShowMessage] = useState(false);
@@ -53,6 +55,29 @@ const Contact = () => {
               <h2 className="text-[45px] lg:text-[90px] leading-none mb-12">
                 Let's work <br /> together!
               </h2>
+              <motion.div
+              variants={fadeIn('left', 0.6)}
+              initial='hidden'
+              whileInView={'show'}
+              viewport={{ once: false, amount: 0.8 }}
+              className='
+              flex
+              text-[20px]
+              gap-x-6
+              max-w-max
+              mx-auto
+              lg:mx-0
+              '>
+              <a href='https://wa.me/5581996379353' target='_blank'>
+                <FaWhatsapp />
+              </a>
+              <a href='https://github.com/miguelamaral254' target='_blank'>
+                <FaGithub />
+              </a>
+              <a href='https://www.linkedin.com/in/miguel-augusto-8b7350217/' target='_blank'>
+                <FaLinkedin />
+              </a>
+            </motion.div>
             </div>
           </motion.div>
           {/* Form */}
@@ -65,7 +90,7 @@ const Contact = () => {
             className="flex-1 border rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start"
           >
             {showMessage && (
-              <div className="text-green-500 mb-4">Email sent!</div>
+              <div className=" text-gradient mb-6"><span>Thanks for message! I'll be in touch soon</span></div>
             )}
             
             <input
@@ -122,10 +147,11 @@ const Contact = () => {
               Send message
             </button>
           </motion.form>
+          
         </div>
       </div>
     </section>
   );
 };
 
-export default Contact;
+export default Contact

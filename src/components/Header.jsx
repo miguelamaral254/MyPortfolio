@@ -1,6 +1,8 @@
 import React from 'react';
 // images
 import Logo from '../assets/Logo.png'
+//link
+import { Link } from 'react-scroll'
 
 const Header = () => {
   return (
@@ -18,7 +20,15 @@ const Header = () => {
             
           </a>
           {/* Button*/}
-          <button className='btn btn-sm'> Work with me</button>
+          <button className='btn btn-sm'>
+            <Link
+            to='contact'
+            activeClass='active'
+            smooth={true}
+            spy={true}>
+              Work with me
+          </Link>
+          </button>
         </div>
 
       </div>
@@ -26,4 +36,4 @@ const Header = () => {
   )
 };
 
-export default Header;
+export default Header
