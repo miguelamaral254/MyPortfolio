@@ -1,7 +1,9 @@
 import React from 'react';
 //icons
+import {SiJavascript} from 'react-icons/si'
 
 import{BsArrowUpRight} from 'react-icons/bs'
+
 // type animation
 import { TypeAnimation } from 'react-type-animation';
 // motion 
@@ -14,7 +16,7 @@ import { Link } from 'react-scroll'
 
 const services = [
   {
-    name: 'UI/UX Design',
+    name: 'Web Development',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae accusantium a ratione minima, aliquid dignissimos ea ducimus eum corporis',
     link: 'Learn more'
   },
@@ -130,6 +132,7 @@ const Services = () => {
                       items-center
                       '>
                       <BsArrowUpRight />
+                      
                       </a>
                       <a href='#' className='
                       text-gradient
