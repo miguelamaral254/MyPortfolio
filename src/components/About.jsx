@@ -55,9 +55,9 @@ const About = () => {
             text-accent'>About me.</h2>
             <h3 className='
             h3
-            mb-4'>I'm a Full-Stack Developer starting my carreer with a dream</h3>
+            mb-4'> I'm a professional currently transitioning into the field of technology. I have a solid background in web application technologies</h3>
             <p className='mb-6'>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore reprehenderit, nam fugit laudantium fugiat quae minima voluptas
+            My aspirations go beyond front-end development—I aim to become a full-stack developer and eventually specialize in DevOps. With my analytical mindset and problem-solving orientation, I am fully committed to acquiring the necessary skills and knowledge to excel in this rapidly evolving field.
             </p>
             {/* stats */}
             <div className='

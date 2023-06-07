@@ -13,26 +13,37 @@ import { fadeIn } from '../variants'
 //link
 import { Link } from 'react-scroll'
 // services data
+/* Allow me to introduce myself. My name is Miguel, and I'm a professional currently transitioning into the field of technology. I have a solid background in web application technologies, including HTML5, CSS3, JavaScript, ReactJS, NextJS, TypeScript, and Tailwind. These skills empower me to tackle the challenges and opportunities that lie ahead in the tech industry.
 
+I am well-versed in front-end development and possess a deep understanding of database structures like MySQL and data formats like JSON. This expertise allows me to create interactive and responsive user interfaces, ensuring an exceptional user experience.
+
+My aspirations go beyond front-end development—I aim to become a full-stack developer and eventually specialize in DevOps. With my analytical mindset and problem-solving orientation, I am fully committed to acquiring the necessary skills and knowledge to excel in this rapidly evolving field.
+
+I am driven, curious, and extremely passionate about technology. I thrive on taking on complex challenges, constantly learning new technologies, and making valuable contributions to software development projects. My dedication and insatiable thirst for knowledge will undoubtedly propel me to achieve great things in my new career in the technology industry. */
 const services = [
   {
     name: 'Web Development',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae accusantium a ratione minima, aliquid dignissimos ea ducimus eum corporis',
+    description: 'I specialize in front-end web development, utilizing technologies such as HTML5, CSS3, JavaScript, ReactJS, NextJS, TypeScript, and Tailwind. I create visually appealing and responsive websites with a seamless user interface',
     link: 'Learn more'
   },
   {
-    name: 'Development',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae accusantium a ratione minima, aliquid dignissimos ea ducimus eum corporis',
+    name: 'Ux/Ui Desingn',
+    description: 'I understand the importance of providing users with a delightful experience. I apply my knowledge of UX principles to design intuitive interfaces that enhance usability and accessibility.',
     link: 'Learn more'
   },
   {
-    name: 'Digital Marketing',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae accusantium a ratione minima, aliquid dignissimos ea ducimus eum corporis',
+    name: 'Database Management:',
+    description: 'With proficiency in MySQL and experience working with JSON, I ensure efficient and secure data storage, retrieval, and management for web applications.',
     link: 'Learn more'
   },
   {
-    name: 'Product Branding',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae accusantium a ratione minima, aliquid dignissimos ea ducimus eum corporis',
+    name: 'Product Full-Stack Development:',
+    description: 'As I work towards becoming a full-stack developer, I am expanding my skills to cover back-end technologies, server-side scripting, and API integrations. This holistic approach enables me to build end-to-end solutions.',
+    link: 'Learn more'
+  },
+  {
+    name: 'Future DevOps Expertiseoduct Full-Stack Development:',
+    description: 'As I work towards becoming a full-stack developer, I am expanding my skills to cover back-end technologies, server-side scripting, and API integrations. This holistic approach enables me to build end-to-end solutions.',
     link: 'Learn more'
   }
 ]
@@ -70,7 +81,8 @@ const Services = () => {
             h3
             max-w-[455px]
             mb-16'>
-              I'm a Freelance Front-end developer with over 5 years of experience.
+              I am well-versed in front-end development and possess understanding of database structures like MySQL and data formats like JSON. This expertise allows me to create interactive and responsive user interfaces, ensuring an exceptional user experience.
+
             </h3>
             <button className='
           btn
@@ -108,11 +120,11 @@ const Services = () => {
                     <div className='
                     max-w-[476px]'>
                       <h4 className='
-                      text-[20px]
+                      text-[18px]
                       tracking-wilder
                       font-primary
                       font-semibold
-                      mb-6'>{name}</h4>
+                      mb-0'>{name}</h4>
                       <p className='
                       font-secondary
                       leading-tight'>{description}</p>
