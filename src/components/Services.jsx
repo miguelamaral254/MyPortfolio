@@ -81,7 +81,7 @@ const Services = () => {
             h3
             max-w-[455px]
             mb-16'>
-              I am well-versed in front-end development and possess understanding of database structures like MySQL and data formats like JSON. This expertise allows me to create interactive and responsive user interfaces, ensuring an exceptional user experience.
+              I am well-versed in front-end development and possess understanding of database structures like MySQL and data formats like JSON. 
 
             </h3>
             <button className='
