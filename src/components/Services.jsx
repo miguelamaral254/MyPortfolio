@@ -17,7 +17,7 @@ import { Link } from 'react-scroll'
 
 I am well-versed in front-end development and possess a deep understanding of database structures like MySQL and data formats like JSON. This expertise allows me to create interactive and responsive user interfaces, ensuring an exceptional user experience.
 
-My aspirations go beyond front-end development—I aim to become a full-stack developer and eventually specialize in DevOps. With my analytical mindset and problem-solving orientation, I am fully committed to acquiring the necessary skills and knowledge to excel in this rapidly evolving field.
+
 
 I am driven, curious, and extremely passionate about technology. I thrive on taking on complex challenges, constantly learning new technologies, and making valuable contributions to software development projects. My dedication and insatiable thirst for knowledge will undoubtedly propel me to achieve great things in my new career in the technology industry. */
 const services = [
