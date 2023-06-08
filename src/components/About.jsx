@@ -1,27 +1,28 @@
-import React from 'react';
+import React from "react";
 // countup
-import CountUp from 'react-countup';
+import CountUp from "react-countup";
 // intersection oberver hook
-import { useInView } from 'react-intersection-observer';
+import { useInView } from "react-intersection-observer";
 //motion
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 // variant
-import {fadeIn} from '../variants'
+import { fadeIn } from "../variants";
 //link
-import { Link } from 'react-scroll'
-
+import { Link } from "react-scroll";
 
 const About = () => {
-
-  const[ref, inView] = useInView({
-    threshold:0.5,
+  const [ref, inView] = useInView({
+    threshold: 0.5,
   });
   return (
-    <section className='section' id='about' ref={ref}>
-      <div className='
+    <section className="section" id="about" ref={ref}>
+      <div
+        className="
       container
-      mx-auto'>
-        <div className='
+      mx-auto"
+      >
+        <div
+          className="
         flex
         flex-col
         gap-y-10
@@ -29,106 +30,133 @@ const About = () => {
         lg:items-center
         lg:gap-x-20
         lg:gap-y-0
-        h-screen'>
+        h-screen"
+        >
           {/* Img */}
-          <motion.div 
-          variants={fadeIn('right',0.3)}
-          initial='hidden'
-          whileInView={'show'}
-          viewport={{once:false, amount:0.3}}
-          className='
+          <motion.div
+            variants={fadeIn("right", 0.3)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.3 }}
+            className="
           flex-1
           bg-about
           bg-contain
           bg-no-repeat
           h-[640px]
           mix-blend-lighten
-          bg-top'></motion.div>
+          bg-top"
+          ></motion.div>
           {/* text */}
-          <motion.div 
-          variants={fadeIn('left',0.5)}
-          initial='hidden'
-          whileInView={'show'}
-          viewport={{once:false, amount:0.3}}className='flex-1'>
-            <h2 className='
+          <motion.div
+            variants={fadeIn("left", 0.5)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.3 }}
+            className="flex-1"
+          >
+            <h2
+              className="
             h2
-            text-accent'>About me.</h2>
-            <h3 className='
+            text-accent"
+            >
+              About me.
+            </h2>
+            <h3
+              className="
             h3
-            mb-4'> I'm a professional currently transitioning into the technology field. I have a solid background in web application technologies</h3>
-            <p className='mb-6'>
-            My aspirations go beyond Front-End development — I aim to become a Full-Stack developer and eventually specialize in DevOps. 
+            mb-4"
+            >
+              {" "}
+              I am a passionate Full Stack developer with expertise in Web
+              applications.
+            </h3>
+            <p className="mb-6">
+              I'm currently transitioning into the technology field. I have a
+              solid background in web application technologies. My aspirations
+              go beyond Full Stack development — I aim to become eventually
+              specialize in DevOps.
             </p>
             {/* stats */}
-            <div className='
+            <div
+              className="
             flex
             gap-x-6
             lg:gap-x-10
-            mb-12'>
+            mb-12"
+            >
               <div>
-                <div className='
+                <div
+                  className="
                 text-[40px]
                 font-tertiary
                 text-gradient
-                mb-2'>
+                mb-2"
+                >
                   {/* upgrade with date time */}
-                  {
-                    inView ?
-                    <CountUp start={0} end={1} duration={3} /> : null}
+                  {inView ? <CountUp start={0} end={1} duration={3} /> : null}
                 </div>
-                <div className='
+                <div
+                  className="
                 font-primary
                 text-sm
-                tracking-[2px]'>
-                  Years of <br/>
+                tracking-[2px]"
+                >
+                  Years of <br />
                   Experience
                 </div>
               </div>
               <div>
-                <div className='
+                <div
+                  className="
                 text-[40px]
                 font-tertiary
                 text-gradient
-                mb-2'>
+                mb-2"
+                >
                   {/* upgrade with date time */}
-                  {
-                    inView ?
-                    <CountUp start={0} end={2} duration={3} /> : null}
-
+                  {inView ? <CountUp start={0} end={2} duration={3} /> : null}
                 </div>
-                <div className='
+                <div
+                  className="
                 font-primary
                 text-sm
-                tracking-[2px]'>
-                  Projects <br/>
+                tracking-[2px]"
+                >
+                  Projects <br />
                   completed
                 </div>
               </div>
             </div>
-            <div className='
+            <div
+              className="
             flex
             gap-x-8
-            items-center'>
-            <button className='
+            items-center"
+            >
+              <button
+                className="
             btn
-            btn-lg'>Contact Me</button>
-            <a href='#' className='
+            btn-lg"
+              >
+                Contact Me
+              </button>
+              <a
+                href="#"
+                className="
                 text-gradient
-                btn-link'>
-              <Link
-                to='work'
-                activeClass='active'
-                smooth={true}
-                spy={true}>
-                My portfolio
-              </Link>
+                btn-link"
+              >
+                <Link to="work" activeClass="active" smooth={true} spy={true}>
+                  My portfolio
+                </Link>
               </a>
             </div>
           </motion.div>
         </div>
       </div>
     </section>
-  )
+  );
 };
 
 export default About;

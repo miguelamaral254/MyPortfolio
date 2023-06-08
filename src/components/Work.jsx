@@ -1,216 +1,276 @@
-import React from 'react';
+import React from "react";
 //motion
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 //variants
-import {fadeIn} from '../variants'
+import { fadeIn } from "../variants";
 // img
-import Img1 from '../assets/portfolio-img1.png'
-import Img2 from '../assets/portfolio-img2.png'
-import Img3 from '../assets/portfolio-img3.png'
-
+import Img1 from "../assets/portfolio-img1.png";
+import Img2 from "../assets/portfolio-img2.png";
+import Img3 from "../assets/portfolio-img3.png";
 
 const Work = () => {
-  return(
-     <section className='section' id='work'>
-      <div className='container mx-auto'>
-        <div className='
+  return (
+    <section className="section" id="work">
+      <div className="container mx-auto">
+        <div
+          className="
         flex
         flex-col
         lg:flex-row
-        gap-x-10'> 
+        gap-x-10"
+        >
           <motion.div
-          variants={fadeIn('right',0.3)}
-          initial='hidden'
-          whileInView={'show'}
-          viewport={{once:false, amount:0.3}}
-           className='
+            variants={fadeIn("right", 0.3)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.3 }}
+            className="
           flex-1
           flex
           flex-col
           gap-y-12
           mb-10
-          lg:mb-0'>
+          lg:mb-0"
+          >
             {/* text */}
             <div>
-              <h2 className='
+              <h2
+                className="
               h2
               leading-tight
-              text-accent'>
-                My Latest <br/>
-              work
+              text-accent"
+              >
+                My Latest <br />
+                work
               </h2>
-              <p className='
+              <p
+                className="
               max-w-sm
-              mb-16'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae accusantium a ratione minima, aliquid dignissimos ea ducimus eum corporis
+              mb-16"
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repudiandae accusantium a ratione minima, aliquid dignissimos ea
+                ducimus eum corporis
               </p>
-              <button className='
+              <button
+                className="
               btn
-              btn-sm'>
-                <a href="https://github.com/miguelamaral254?tab=repositories" target='_blank'>View all projects</a>
+              btn-sm"
+              >
+                <a
+                  href="https://github.com/miguelamaral254?tab=repositories"
+                  target="_blank"
+                >
+                  View all projects
+                </a>
               </button>
             </div>
             {/* Img 1 */}
-            <div className='
+            <div
+              className="
             group
             relative
             overflow-hidden
             border-2
             border-white/50
-            rounded-xl'>
+            rounded-xl"
+            >
               {/* overlay */}
-              <div className='
+              <div
+                className="
               group-hover:bg-black/70
               h-full
               w-full
               absolute
               z-40
               transition-all
-              duration-300'></div>
+              duration-300"
+              ></div>
               {/* Img */}
-              <img className='
+              <img
+                className="
               group-hover:scale-125
               transition-all
-              duration-500' src={Img1} alt='' />
+              duration-500"
+                src={Img1}
+                alt=""
+              />
               {/* pretitle */}
-              <div className='
+              <div
+                className="
               absolute
               -bottom-full
               left-12
               group-hover:bottom-24
               transition-all
               duration-500
-              z-50'>
-                <span className='text-gradient'>UI/UX design</span>
+              z-50"
+              >
+                <span className="text-gradient">UI/UX design</span>
               </div>
               {/* title */}
-              <div className='
+              <div
+                className="
               absolute
               -bottom-full
               left-12
               group-hover:bottom-14
               transition-all
               duration-700
-              z-50'>
-                <span className='
+              z-50"
+              >
+                <span
+                  className="
                 text-3x1
-                text-white'>project Title</span>
+                text-white"
+                >
+                  project Title
+                </span>
               </div>
-               
             </div>
           </motion.div>
-          <motion.div 
-          variants={fadeIn('right',0.4)}
-          initial='hidden'
-          whileInView={'show'}
-          viewport={{once:false, amount:0.3}}
-          className='
+          <motion.div
+            variants={fadeIn("right", 0.4)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.3 }}
+            className="
           flex-1
           flex
           flex-col
-          gap-y-10'>
+          gap-y-10"
+          >
             {/* Img 2 */}
-            <div className='
+            <div
+              className="
             group
             relative
             overflow-hidden
             border-2
             border-white/50
-            rounded-xl'>
+            rounded-xl"
+            >
               {/* overlay */}
-              <div className='
+              <div
+                className="
               group-hover:bg-black/70
               h-full
               w-full
               absolute
               z-40
               transition-all
-              duration-300'></div>
+              duration-300"
+              ></div>
               {/* Img */}
-              <img className='
+              <img
+                className="
               group-hover:scale-125
               transition-all
-              duration-500' src={Img2} alt='' />
+              duration-500"
+                src={Img2}
+                alt=""
+              />
               {/* pretitle */}
-              <div className='
+              <div
+                className="
               absolute
               -bottom-full
               left-12
               group-hover:bottom-24
               transition-all
               duration-500
-              z-50'>
-                <span className='text-gradient'>UI/UX design</span>
+              z-50"
+              >
+                <span className="text-gradient">UI/UX design</span>
               </div>
               {/* title */}
-              <div className='
+              <div
+                className="
               absolute
               -bottom-full
               left-12
               group-hover:bottom-14
               transition-all
               duration-700
-              z-50'>
-                <span className='
+              z-50"
+              >
+                <span
+                  className="
                 text-3x1
-                text-white'>project Title</span>
+                text-white"
+                >
+                  project Title
+                </span>
               </div>
-               
             </div>
             {/* Img 3 */}
-            <div className='
+            <div
+              className="
             group
             relative
             overflow-hidden
             border-2
             border-white/50
-            rounded-xl'>
+            rounded-xl"
+            >
               {/* overlay */}
-              <div className='
+              <div
+                className="
               group-hover:bg-black/70
               h-full
               w-full
               absolute
               z-40
               transition-all
-              duration-300'></div>
+              duration-300"
+              ></div>
               {/* Img */}
-              <img className='
+              <img
+                className="
               group-hover:scale-125
               transition-all
-              duration-500' src={Img3} alt='' />
+              duration-500"
+                src={Img3}
+                alt=""
+              />
               {/* pretitle */}
-              <div className='
+              <div
+                className="
               absolute
               -bottom-full
               left-12
               group-hover:bottom-24
               transition-all
               duration-500
-              z-50'>
-                <span className='text-gradient'>UI/UX design</span>
+              z-50"
+              >
+                <span className="text-gradient">UI/UX design</span>
               </div>
               {/* title */}
-              <div className='
+              <div
+                className="
               absolute
               -bottom-full
               left-12
               group-hover:bottom-14
               transition-all
               duration-700
-              z-50'>
-                <span className='
+              z-50"
+              >
+                <span
+                  className="
                 text-3x1
-                text-white'>project Title</span>
+                text-white"
+                >
+                  project Title
+                </span>
               </div>
-               
             </div>
           </motion.div>
         </div>
       </div>
-     </section>
-
-  )
+    </section>
+  );
 };
 
 export default Work;
