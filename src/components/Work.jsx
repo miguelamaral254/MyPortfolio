@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 //variants
 import { fadeIn } from "../variants";
 // img
-import Img1 from "../assets/portfolio-img1.png";
-import Img2 from "../assets/portfolio-img2.png";
-import Img3 from "../assets/portfolio-img3.png";
+import Img1 from "../assets/inProgress.png";
+import Img3 from "../assets/inProgress.png";
+import Img2 from "../assets/inProgress.png";
 
 const Work = () => {
   return (
@@ -48,9 +48,9 @@ const Work = () => {
               max-w-sm
               mb-16"
               >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Repudiandae accusantium a ratione minima, aliquid dignissimos ea
-                ducimus eum corporis
+                Here is my latest projects.<br/>
+                All of them with NextJs as base.<br/>
+                Enjoy! <br/>
               </p>
               <button
                 className="
@@ -106,7 +106,7 @@ const Work = () => {
               duration-500
               z-50"
               >
-                <span className="text-gradient">UI/UX design</span>
+                <span className="text-gradient">Work in Progress</span>
               </div>
               {/* title */}
               <div
@@ -124,7 +124,7 @@ const Work = () => {
                 text-3x1
                 text-white"
                 >
-                  project Title
+                  The project is comming 
                 </span>
               </div>
             </div>
@@ -181,7 +181,7 @@ const Work = () => {
               duration-500
               z-50"
               >
-                <span className="text-gradient">UI/UX design</span>
+                <span className="text-gradient">Work in Progress</span>
               </div>
               {/* title */}
               <div
@@ -199,7 +199,7 @@ const Work = () => {
                 text-3x1
                 text-white"
                 >
-                  project Title
+                  The project is comming 
                 </span>
               </div>
             </div>
@@ -244,7 +244,7 @@ const Work = () => {
               duration-500
               z-50"
               >
-                <span className="text-gradient">UI/UX design</span>
+                <span className="text-gradient">Work in Progress</span>
               </div>
               {/* title */}
               <div
@@ -262,7 +262,7 @@ const Work = () => {
                 text-3x1
                 text-white"
                 >
-                  project Title
+                  The project is comming 
                 </span>
               </div>
             </div>
