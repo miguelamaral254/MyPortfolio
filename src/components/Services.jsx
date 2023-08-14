@@ -27,12 +27,7 @@ const services = [
       "As I work towards becoming a full-stack developer, I am expanding my skills to cover back-end technologies, server-side scripting, and API integrations. This holistic approach enables me to build end-to-end solutions.",
     link: "https://blog.gokursos.com/carreiras/tecnologia/o-que-e-desenvolvedor-full-stack/?idtag=6c5101ba-0849-49a6-82ad-b655aeb8b564&gclid=CjwKCAjw1YCkBhAOEiwA5aN4ASG1k_5pBFboLlZVmmdtFypD2Dcra5jrAzE3TxFsy-6wi3HG9RpN1RoCf9kQAvD_BwE",
   },
-  {
-    name: "Future DevOps Expertiseoduct Full-Stack Development:",
-    description:
-      "As I work towards becoming a full-stack developer, I am expanding my skills to cover back-end technologies, server-side scripting, and API integrations. This holistic approach enables me to build end-to-end solutions.",
-    link: "https://aws.amazon.com/pt/devops/what-is-devops/",
-  },
+ 
 ];
 
 const Services = () => {

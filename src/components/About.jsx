@@ -72,10 +72,7 @@ const About = () => {
               applications.
             </h3>
             <p className="mb-6">
-              I'm currently transitioning into the technology field. I have a
-              solid background in web application technologies. My aspirations
-              go beyond Full Stack development — I aim to become eventually
-              specialize in DevOps.
+            I specialize in web development, creating dynamic interfaces and excelling in both front-end and back-end work. With a focus on efficient design, I'm committed to delivering top-notch products through continuous skill enhancement.
             </p>
             {/* stats */}
             <div
