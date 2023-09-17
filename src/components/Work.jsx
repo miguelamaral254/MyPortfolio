@@ -5,8 +5,8 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 // img
 import Img1 from "../assets/inProgress.png";
-import Img3 from "../assets/inProgress.png";
-import Img2 from "../assets/inProgress.png";
+import Img3 from "../assets/hyphen.png";
+import Img2 from "../assets/evogym.png";
 
 const Work = () => {
   return (
@@ -49,7 +49,7 @@ const Work = () => {
               mb-16"
               >
                 Here is my latest projects.<br/>
-                All of them with NextJs as base.<br/>
+                All of them with React as base.<br/>
                 Enjoy! <br/>
               </p>
               <button
@@ -151,16 +151,18 @@ const Work = () => {
             rounded-xl"
             >
               {/* overlay */}
-              <div
-                className="
-              group-hover:bg-black/70
-              h-full
-              w-full
-              absolute
-              z-40
-              transition-all
-              duration-300"
-              ></div>
+              <a href="https://projevogym.vercel.app" target="_blank">
+                <div
+                  className="
+                group-hover:bg-black/70
+                h-full
+                w-full
+                absolute
+                z-40
+                transition-all
+                duration-300"
+                ></div>
+              </a>
               {/* Img */}
               <img
                 className="
@@ -181,7 +183,7 @@ const Work = () => {
               duration-500
               z-50"
               >
-                <span className="text-gradient">Work in Progress</span>
+                <span className="text-gradient">Evo Gym</span>
               </div>
               {/* title */}
               <div
@@ -199,7 +201,7 @@ const Work = () => {
                 text-3x1
                 text-white"
                 >
-                  The project is comming 
+                 An Fitness website made with React and Tailwind
                 </span>
               </div>
             </div>
@@ -244,7 +246,7 @@ const Work = () => {
               duration-500
               z-50"
               >
-                <span className="text-gradient">Work in Progress</span>
+                <span className="text-gradient">Hyphen</span>
               </div>
               {/* title */}
               <div
@@ -252,7 +254,7 @@ const Work = () => {
               absolute
               -bottom-full
               left-12
-              group-hover:bottom-14
+              group-hover:bottom-8
               transition-all
               duration-700
               z-50"
@@ -262,7 +264,7 @@ const Work = () => {
                 text-3x1
                 text-white"
                 >
-                  The project is comming 
+                  An application with the aim of finding work partners made with React Native and Firebase
                 </span>
               </div>
             </div>
