@@ -72,7 +72,8 @@ const About = () => {
               applications.
             </h3>
             <p className="mb-6">
-            I specialize in web development, creating dynamic interfaces and excelling in both front-end and back-end work. With a focus on efficient design, I'm committed to delivering top-notch products through continuous skill enhancement.
+            I'm a pet father, I love technology and solving problems. I love spending time with my family and I am a carpenter in my spare time.
+            I'm the type of person who loves to be helpful and I'm always there to try to help in any way possible. I love learning and I'm always willing to take on new challenges!
             </p>
             {/* stats */}
             <div
@@ -133,10 +134,17 @@ const About = () => {
             >
               <button
                 className="
-            btn
-            btn-lg"
+                btn
+                btn-lg"
               >
-                Contact Me
+                <Link
+                  to="contact"
+                  activeClass="active"
+                  smooth={true}
+                  spy={true}
+                >
+                  Contact me
+                </Link>
               </button>
               <a
                 href="#"
