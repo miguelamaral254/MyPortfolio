@@ -48,9 +48,11 @@ const Work = () => {
               max-w-sm
               mb-16"
               >
-                Here is my latest projects.<br/>
-                All of them with React as base.<br/>
-                Enjoy! <br/>
+                Here is my latest projects.
+                <br />
+                All of them with React as base.
+                <br />
+                Enjoy! <br />
               </p>
               <button
                 className="
@@ -124,7 +126,7 @@ const Work = () => {
                 text-3x1
                 text-white"
                 >
-                  The project is comming 
+                  The project is comming
                 </span>
               </div>
             </div>
@@ -201,7 +203,7 @@ const Work = () => {
                 text-3x1
                 text-white"
                 >
-                 An Fitness website made with React and Tailwind
+                  An Fitness website made with React and Tailwind
                 </span>
               </div>
             </div>
@@ -264,7 +266,8 @@ const Work = () => {
                 text-3x1
                 text-white"
                 >
-                  An application with the aim of finding work partners made with React Native and Firebase
+                  An application with the aim of finding work partners made with
+                  React Native and Firebase
                 </span>
               </div>
             </div>
