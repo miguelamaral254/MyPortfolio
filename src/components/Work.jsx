@@ -218,16 +218,18 @@ const Work = () => {
             rounded-xl"
             >
               {/* overlay */}
-              <div
-                className="
-              group-hover:bg-black/70
-              h-full
-              w-full
-              absolute
-              z-40
-              transition-all
-              duration-300"
-              ></div>
+              <a href="https://github.com/miguelamaral254/hyphenapp" target="_blank">
+                <div
+                  className="
+                group-hover:bg-black/70
+                h-full
+                w-full
+                absolute
+                z-40
+                transition-all
+                duration-300"
+                ></div>
+              </a>
               {/* Img */}
               <img
                 className="
