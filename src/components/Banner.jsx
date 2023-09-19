@@ -6,6 +6,7 @@ import { Link } from "react-scroll";
 
 //icons
 import { FaGithub, FaWhatsapp, FaLinkedin } from "react-icons/fa";
+import { GrDocumentDownload } from "react-icons/gr";
 // type animation
 import { TypeAnimation } from "react-type-animation";
 // motion
@@ -151,6 +152,7 @@ const Banner = () => {
               max-w-max
               mx-auto
               lg:mx-0
+              
               "
             >
               <a href="https://wa.me/5581996379353" target="_blank">
@@ -164,6 +166,12 @@ const Banner = () => {
                 target="_blank"
               >
                 <FaLinkedin />
+              </a>
+              <a
+                href="https://drive.google.com/file/d/1NRTV74zgaXxHAmQvtpHdk3A-ST7agHPR/view?usp=drive_link"
+                target="_blank"
+              >
+                <GrDocumentDownload />
               </a>
             </motion.div>
           </div>
