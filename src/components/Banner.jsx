@@ -5,8 +5,8 @@ import Image from "../assets/eu.png";
 import { Link } from "react-scroll";
 
 //icons
-import { FaGithub, FaWhatsapp, FaLinkedin } from "react-icons/fa";
-import { GrDocumentDownload } from "react-icons/gr";
+import { FaGithub, FaWhatsapp, FaLinkedin, FaFileDownload } from "react-icons/fa";
+
 // type animation
 import { TypeAnimation } from "react-type-animation";
 // motion
@@ -171,7 +171,7 @@ const Banner = () => {
                 href="https://drive.google.com/file/d/1NRTV74zgaXxHAmQvtpHdk3A-ST7agHPR/view?usp=drive_link"
                 target="_blank"
               >
-                <GrDocumentDownload />
+                <FaFileDownload />
               </a>
             </motion.div>
           </div>
