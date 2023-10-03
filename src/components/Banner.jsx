@@ -5,7 +5,7 @@ import Image from "../assets/eu.png";
 import { Link } from "react-scroll";
 
 //icons
-import { FaGithub, FaWhatsapp, FaLinkedin, FaFileDownload } from "react-icons/fa";
+import { FaGithub, FaWhatsapp, FaLinkedin, FaFileDownload, FaPlayCircle } from "react-icons/fa";
 
 // type animation
 import { TypeAnimation } from "react-type-animation";
@@ -172,6 +172,12 @@ const Banner = () => {
                 target="_blank"
               >
                 <FaFileDownload />
+              </a>
+              <a 
+              href="https://drive.google.com/file/d/1rWlcwRxXGUecTLcnakSaDVu0n1cs41gR/view?usp=drive_link"
+              target="_blank"
+              >
+              <FaPlayCircle/>
               </a>
             </motion.div>
           </div>

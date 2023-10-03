@@ -3,6 +3,8 @@ import React from "react";
 import CountUp from "react-countup";
 // intersection oberver hook
 import { useInView } from "react-intersection-observer";
+//import icons
+import { FaPlayCircle } from "react-icons/fa";
 //motion
 import { motion } from "framer-motion";
 // variant
@@ -14,6 +16,7 @@ const About = () => {
   const [ref, inView] = useInView({
     threshold: 0.5,
   });
+  
   return (
     <section className="section" id="about" ref={ref}>
       <div
@@ -72,8 +75,11 @@ const About = () => {
               applications.
             </h3>
             <p className="mb-6">
-            I'm a pet father, I love technology and solving problems. I love spending time with my family and I am a carpenter in my spare time.
-            I'm the type of person who loves to be helpful and I'm always there to try to help in any way possible. I love learning and I'm always willing to take on new challenges!
+              I'm a pet father, I love technology and solving problems. I love
+              spending time with my family and I am a carpenter in my spare
+              time. I'm the type of person who loves to be helpful and I'm
+              always there to try to help in any way possible. I love learning
+              and I'm always willing to take on new challenges!
             </p>
             {/* stats */}
             <div
@@ -129,6 +135,7 @@ const About = () => {
             <div
               className="
             flex
+            flex-wrap
             gap-x-8
             items-center"
             >
@@ -156,6 +163,16 @@ const About = () => {
                   My portfolio
                 </Link>
               </a>
+              <div className="flex items-center gap-1.5">
+                <a
+                  href="https://drive.google.com/file/d/1rWlcwRxXGUecTLcnakSaDVu0n1cs41gR/view?usp=drive_link"
+                  target="_blank"
+                  className="text-gradient btn-link"
+                >
+                  presentation video
+                </a>
+                <FaPlayCircle className="text-accent"/>
+              </div>
             </div>
           </motion.div>
         </div>

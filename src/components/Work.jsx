@@ -50,9 +50,9 @@ const Work = () => {
               >
                 Here is my latest projects.
                 <br />
-                All of them with React as base.
-                <br />
-                Enjoy! <br />
+                Here are three applications, a web, mobile and desktop.
+                
+                Enjoy!
               </p>
               <button
                 className="
@@ -78,16 +78,18 @@ const Work = () => {
             rounded-xl"
             >
               {/* overlay */}
-              <div
-                className="
-              group-hover:bg-black/70
-              h-full
-              w-full
-              absolute
-              z-40
-              transition-all
-              duration-300"
-              ></div>
+              <a href="https://github.com/miguelamaral254/supermarketsystem" target="_blank">
+                <div
+                  className="
+                group-hover:bg-black/70
+                h-full
+                w-full
+                absolute
+                z-40
+                transition-all
+                duration-300"
+                ></div>
+              </a>
               {/* Img */}
               <img
                 className="
@@ -108,7 +110,7 @@ const Work = () => {
               duration-500
               z-50"
               >
-                <span className="text-gradient">Work in Progress</span>
+                <span className="text-gradient">Super market system</span>
               </div>
               {/* title */}
               <div
@@ -126,7 +128,7 @@ const Work = () => {
                 text-3x1
                 text-white"
                 >
-                  The project is comming
+                  An simple super market system with Java
                 </span>
               </div>
             </div>
