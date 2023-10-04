@@ -174,7 +174,7 @@ const Banner = () => {
                 <FaFileDownload />
               </a>
               <a 
-              href="https://drive.google.com/file/d/1rWlcwRxXGUecTLcnakSaDVu0n1cs41gR/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1TyL5A_OUHgeUPHUTi-U8SeYjOH_jk4_d/view?usp=drive_link"
               target="_blank"
               >
               <FaPlayCircle/>
