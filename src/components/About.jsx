@@ -119,7 +119,7 @@ const About = () => {
                 mb-2"
                 >
                   {/* upgrade with date time */}
-                  {inView ? <CountUp start={0} end={2} duration={3} /> : null}
+                  {inView ? <CountUp start={0} end={6} duration={3} /> : null}
                 </div>
                 <div
                   className="
