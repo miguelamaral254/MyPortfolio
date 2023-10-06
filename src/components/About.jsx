@@ -22,7 +22,7 @@ const About = () => {
       <div
         className="
       container
-      mx-auto"
+      mx-auto pb-20"
       >
         <div
           className="
@@ -135,7 +135,7 @@ const About = () => {
             <div
               className="
             flex
-            flex-wrap
+            
             gap-x-8
             items-center"
             >
@@ -153,17 +153,18 @@ const About = () => {
                   Contact me
                 </Link>
               </button>
-              <a
-                href="#"
-                className="
-                text-gradient
-                btn-link"
-              >
-                <Link to="work" activeClass="active" smooth={true} spy={true}>
-                  My portfolio
-                </Link>
-              </a>
-              <div className="flex items-center gap-1.5">
+              <div className="flex flex-wrap gap-3">
+                <a
+                  href="#"
+                  className="
+                  text-gradient
+                  btn-link"
+                >
+                  <Link to="work" activeClass="active" smooth={true} spy={true}>
+                    My portfolio
+                  </Link>
+                </a>
+                <div className="flex items-center gap-1.5">
                 <a
                   href="https://drive.google.com/file/d/1TyL5A_OUHgeUPHUTi-U8SeYjOH_jk4_d/view?usp=drive_link"
                   target="_blank"
@@ -171,8 +172,10 @@ const About = () => {
                 >
                   presentation video
                 </a>
-                <FaPlayCircle className="text-accent"/>
+                
               </div>
+              </div>
+              
             </div>
           </motion.div>
         </div>

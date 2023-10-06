@@ -195,7 +195,7 @@ const Work = () => {
               absolute
               -bottom-full
               left-12
-              group-hover:bottom-14
+              group-hover:bottom-10
               transition-all
               duration-700
               z-50"
@@ -205,7 +205,7 @@ const Work = () => {
                 text-3x1
                 text-white"
                 >
-                  An Fitness website made with React and Tailwind
+                An Fitness website made with React and Tailwind
                 </span>
               </div>
             </div>
@@ -270,8 +270,7 @@ const Work = () => {
                 text-3x1
                 text-white"
                 >
-                  An application with the aim of finding work partners made with
-                  React Native and Firebase
+                  An application with React Native and Tailwind
                 </span>
               </div>
             </div>
