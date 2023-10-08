@@ -16,7 +16,7 @@ const About = () => {
   const [ref, inView] = useInView({
     threshold: 0.5,
   });
-  
+
   return (
     <section className="section" id="about" ref={ref}>
       <div
@@ -165,17 +165,15 @@ const About = () => {
                   </Link>
                 </a>
                 <div className="flex items-center gap-1.5">
-                <a
-                  href="https://drive.google.com/file/d/1TyL5A_OUHgeUPHUTi-U8SeYjOH_jk4_d/view?usp=drive_link"
-                  target="_blank"
-                  className="text-gradient btn-link"
-                >
-                  presentation video
-                </a>
-                
+                  <a
+                    href="https://drive.google.com/file/d/1TyL5A_OUHgeUPHUTi-U8SeYjOH_jk4_d/view?usp=drive_link"
+                    target="_blank"
+                    className="text-gradient btn-link"
+                  >
+                    presentation video
+                  </a>
+                </div>
               </div>
-              </div>
-              
             </div>
           </motion.div>
         </div>
