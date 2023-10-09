@@ -155,27 +155,27 @@ const Banner = () => {
               
               "
             >
-              <a href="https://wa.me/5581996379353" target="_blank">
+              <a href="https://wa.me/5581996379353" target="blank">
                 <FaWhatsapp />
               </a>
-              <a href="https://github.com/miguelamaral254" target="_blank">
+              <a href="https://github.com/miguelamaral254" target="blank">
                 <FaGithub />
               </a>
               <a
                 href="https://www.linkedin.com/in/miguel-augusto-8b7350217/"
-                target="_blank"
+                target="blank"
               >
                 <FaLinkedin />
               </a>
               <a
-                href="https://drive.google.com/file/d/1rWlcwRxXGUecTLcnakSaDVu0n1cs41gR/view?usp=drive_link"
-                target="_blank"
+                href="https://drive.google.com/file/d/15s8XWAx4aBz29q-Nwd2doNXl6rzBnqou/view?usp=sharing"
+                target="blank"
               >
                 <FaFileDownload />
               </a>
               <a 
               href="https://drive.google.com/file/d/1TyL5A_OUHgeUPHUTi-U8SeYjOH_jk4_d/view?usp=drive_link"
-              target="_blank"
+              target="blank"
               >
               <FaPlayCircle/>
               </a>
