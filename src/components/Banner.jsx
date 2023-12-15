@@ -168,7 +168,7 @@ const Banner = () => {
                 <FaLinkedin />
               </a>
               <a
-                href="https://drive.google.com/file/d/15s8XWAx4aBz29q-Nwd2doNXl6rzBnqou/view?usp=sharing"
+                href="https://drive.google.com/file/d/1v5ahKRB-m3cfMfMB36mJbv7D7YHXOEbV/view?usp=sharing"
                 target="blank"
               >
                 <FaFileDownload />
