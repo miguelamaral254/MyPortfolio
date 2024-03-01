@@ -1,6 +1,4 @@
 import React from "react";
-// images
-import Logo from "../assets/Logo.png";
 //link
 import { Link } from "react-scroll";
 
@@ -14,15 +12,7 @@ const Header = () => {
         justify-between
         items-center"
         >
-          {/* LOGO */}
-          <a
-            href="#"
-            className="
-          w-[120px] 
-          h-[30px]"
-          >
-            <img src={Logo} alt="LOGO" />
-          </a>
+         
           {/* Button*/}
           <button className="btn btn-sm">
             <Link to="contact" activeClass="active" smooth={true} spy={true}>

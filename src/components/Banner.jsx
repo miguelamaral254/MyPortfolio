@@ -18,7 +18,8 @@ const Banner = () => {
   return (
     <section
       className="
-    min-h-[85vh]
+    pb-16
+    min-h-[95vh]
     lag:min-h-[78vh]
     flex
     items-center"
@@ -173,12 +174,7 @@ const Banner = () => {
               >
                 <FaFileDownload />
               </a>
-              <a 
-              href="https://drive.google.com/file/d/1TyL5A_OUHgeUPHUTi-U8SeYjOH_jk4_d/view?usp=drive_link"
-              target="blank"
-              >
-              <FaPlayCircle/>
-              </a>
+             
             </motion.div>
           </div>
           {/* image */}

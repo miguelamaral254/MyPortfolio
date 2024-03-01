@@ -11,7 +11,7 @@ import Img2 from "../assets/evogym.png";
 const Work = () => {
   return (
     <section className="section" id="work">
-      <div className="container mx-auto">
+      <div className="container mx-auto mt-10">
         <div
           className="
         flex
@@ -33,7 +33,7 @@ const Work = () => {
           lg:mb-0"
           >
             {/* text */}
-            <div>
+            <div className="mt-10">
               <h2
                 className="
               h2
@@ -46,7 +46,7 @@ const Work = () => {
               <p
                 className="
               max-w-sm
-              mb-16"
+              mb-8"
               >
                 Here is my latest projects.
                 <br />

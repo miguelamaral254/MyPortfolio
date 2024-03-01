@@ -24,7 +24,7 @@ const services = [
   {
     name: "Product Full-Stack Development:",
     description:
-      "As I work towards becoming a full-stack developer, I am expanding my skills to cover back-end technologies, server-side scripting, and API integrations. This holistic approach enables me to build end-to-end solutions.",
+      "I am proficient in several frameworks (React, Node.js, etc.) and databases (SQL and NoSQL), always prioritizing security and performance. My strength is solving complex problems, collaborating in multidisciplinary teams and keeping up to date with the latest technological trends.",
     link: "https://blog.gokursos.com/carreiras/tecnologia/o-que-e-desenvolvedor-full-stack/?idtag=6c5101ba-0849-49a6-82ad-b655aeb8b564&gclid=CjwKCAjw1YCkBhAOEiwA5aN4ASG1k_5pBFboLlZVmmdtFypD2Dcra5jrAzE3TxFsy-6wi3HG9RpN1RoCf9kQAvD_BwE",
   },
 ];
@@ -68,9 +68,9 @@ const Services = () => {
             max-w-[455px]
             mb-16"
             >
-              I am well-versed in front-end development and possess
-              understanding of database structures like MySQL and data formats
-              like JSON.
+              I am full stack developer specializing in creating web
+              applications that deliver professional user experiences, combining
+              robust technical skills with a user-centric approach. 
             </h3>
             <button
               className="

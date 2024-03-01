@@ -3,8 +3,6 @@ import React from "react";
 import CountUp from "react-countup";
 // intersection oberver hook
 import { useInView } from "react-intersection-observer";
-//import icons
-import { FaPlayCircle } from "react-icons/fa";
 //motion
 import { motion } from "framer-motion";
 // variant
@@ -22,7 +20,9 @@ const About = () => {
       <div
         className="
       container
-      mx-auto pb-20"
+      mx-auto 
+      p-10
+      min-h-[35vh]"
       >
         <div
           className="
@@ -56,7 +56,7 @@ const About = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1"
+            className="flex-1  "
           >
             <h2
               className="
@@ -71,15 +71,15 @@ const About = () => {
             mb-4"
             >
               {" "}
-              I am a passionate Full Stack developer with expertise in Web
-              applications.
+              Hi, I'm Miguel. Is a pleasure to have you here!
             </h3>
             <p className="mb-6">
-              I'm a pet father, I love technology and solving problems. I love
-              spending time with my family and I am a carpenter in my spare
-              time. I'm the type of person who loves to be helpful and I'm
-              always there to try to help in any way possible. I love learning
-              and I'm always willing to take on new challenges!
+              Since I started my journey as a freelance Frontend 2 years ago, I
+              have done I work remotely for a few companies and eventually
+              became a fullstack developer. Currently I continue working as a
+              freelance developer and also work as technical support. I am the
+              type of professional who is confident, naturally curious and
+              continually works towards improve my skills.
             </p>
             {/* stats */}
             <div
@@ -98,7 +98,7 @@ const About = () => {
                 mb-2"
                 >
                   {/* upgrade with date time */}
-                  {inView ? <CountUp start={0} end={1} duration={3} /> : null}
+                  {inView ? <CountUp start={0} end={2} duration={3} /> : null}
                 </div>
                 <div
                   className="
@@ -119,7 +119,7 @@ const About = () => {
                 mb-2"
                 >
                   {/* upgrade with date time */}
-                  {inView ? <CountUp start={0} end={6} duration={3} /> : null}
+                  {inView ? <CountUp start={0} end={41} duration={3} /> : null}
                 </div>
                 <div
                   className="
@@ -164,15 +164,6 @@ const About = () => {
                     My portfolio
                   </Link>
                 </a>
-                <div className="flex items-center gap-1.5">
-                  <a
-                    href="https://drive.google.com/file/d/1TyL5A_OUHgeUPHUTi-U8SeYjOH_jk4_d/view?usp=drive_link"
-                    target="_blank"
-                    className="text-gradient btn-link"
-                  >
-                    presentation video
-                  </a>
-                </div>
               </div>
             </div>
           </motion.div>
