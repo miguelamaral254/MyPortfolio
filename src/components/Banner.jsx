@@ -56,7 +56,8 @@ const Banner = () => {
             text-[55px]
             font-bold
             leading-[0.8]
-            lg:text-[110px]"
+            lg:text-[110px]
+            mb-4"
             >
               Miguel <span>Amaral</span>
             </motion.h1>
