@@ -70,7 +70,7 @@ const Services = () => {
             >
               I am full stack developer specializing in creating web
               applications that deliver professional user experiences, combining
-              robust technical skills with a user-centric approach. 
+              robust technical skills with a user-centric approach.
             </h3>
             <button
               className="

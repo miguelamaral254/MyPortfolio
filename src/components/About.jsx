@@ -75,8 +75,8 @@ const About = () => {
             </h3>
             <p className="mb-6">
               Since I started my journey as a freelance Frontend 2 years ago, I
-              have done I work remotely for a few companies and eventually
-              became a fullstack developer. Currently I continue working as a
+              have done remotely work for a few companies and eventually I
+              became a Fullstack developer. Currently I continue working as a
               freelance developer and also work as technical support. I am the
               type of professional who is confident, naturally curious and
               continually works towards improve my skills.

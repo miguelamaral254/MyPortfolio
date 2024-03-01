@@ -5,7 +5,7 @@ import Image from "../assets/eu.png";
 import { Link } from "react-scroll";
 
 //icons
-import { FaGithub, FaWhatsapp, FaLinkedin, FaFileDownload, FaPlayCircle } from "react-icons/fa";
+import { FaGithub, FaWhatsapp, FaLinkedin, FaFileDownload } from "react-icons/fa";
 
 // type animation
 import { TypeAnimation } from "react-type-animation";
