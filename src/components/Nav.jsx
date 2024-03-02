@@ -19,10 +19,10 @@ const Nav = () => {
           className="
       w-full
       bg-black/20 
-      h-[96px]
+      h-[80px]
       backdrop-blur-2x1
       rounded-full
-      max-w-[460px]
+      max-w-[360px]
       mx-auto
       px-5
       flex
