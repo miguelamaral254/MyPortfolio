@@ -194,9 +194,10 @@ const Banner = () => {
           flex-1
           max-w-[320px]
           lg:max-w-[482px]
+          p-40
           "
           >
-            <img src={Image} alt="Image" />
+            <img src={Image} alt="Image"/>
           </motion.div>
         </div>
       </div>
